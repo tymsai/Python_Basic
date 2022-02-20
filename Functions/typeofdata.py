@@ -1,9 +1,9 @@
 #%%
 #it tells the type od data 
-a=5
+a=5+6j
+print(type(a))
 print(type('a'))
 print(type(1))
 print(type(1.2))
 print(type("abc")
 print(type(True))
-
