@@ -1,0 +1,17 @@
+#%%
+numbers = [1, 2, 99, 4, 5, 61, 7, 8]
+print("Initial list - ", numbers)
+n=numbers.copy()
+print("Actual copy of list - ", n)
+numbers.append(9)
+print("Append 9 - ", numbers)
+print("copied list - ", n)
+numbers.extend('monday')
+print("extend(Monday) - ", numbers)
+numbers.insert(1, 'x')
+print("insert(1, 'x') - ", numbers)
+numbers.remove('m')
+print("remove('m') - ", numbers)
+numbers.pop(12)
+print("pop(7) - ", numbers)
+print("index('n') - ", numbers.index('n'))
